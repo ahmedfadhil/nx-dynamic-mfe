@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "start:dashboard": "nx serve dashboard"
+    "start:dashboard": "nx serve dashboard",
+    "start:login": "nx serve login"
   },
   "private": true,
   "dependencies": {
