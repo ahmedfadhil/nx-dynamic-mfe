@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-dynamic-mf/login/login-form": ["libs/login/login-form/src/index.ts"],
+      "@nx-dynamic-mf/shared/data-access-user": [
+        "libs/shared/data-access-user/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
