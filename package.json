@@ -4,6 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start:dashboard": "nx serve dashboard",
+    "serve:dashboard": "nx serve dashboard --devRemotes=login",
+    "graph": "nx graph",
     "start:login": "nx serve login"
   },
   "private": true,
